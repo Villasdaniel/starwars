@@ -20,8 +20,8 @@
             6​7​8​ es una franquicia compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense 
             George Lucas en la década de 1970, y producidas y distribuidas por The Walt Disney Company a partir de 2012. 
             Su trama describe las vivencias de un grupo de personajes que habitan en una galaxia ficticia e interactúan con elementos 
-            como «la Fuerza», un campo de energía metafísico y omnipresente9​ que posee un «lado luminoso» impulsado por la sabiduría,
-            la nobleza y la justicia y utilizado por Jedi, y un «lado oscuro» usado por los Sith y provocado por la ira, el miedo y el odio.10​</p>
+            como "la Fuerza", un campo de energía metafísico y omnipresente que posee un "lado luminos" impulsado por la sabiduría,
+            la nobleza y la justicia y utilizado por Jedi, y un "lado oscuro" usado por los Sith y provocado por la ira, el miedo y el odio.</p>
         </section>
         <footer class="principal-footer"></footer>
     </div>
@@ -98,11 +98,13 @@
     display: flex;
     flex-direction: row;
     width: 33.3%;
-    height: 625px;
+    height: 700px;
     justify-content: center;
     margin-left: 33.3%;
     text-align: center;
     font-size: 25px;
 }
-
+.descripcion p {
+    font-family: 'Star Jedi', arial;
+}
 </style>

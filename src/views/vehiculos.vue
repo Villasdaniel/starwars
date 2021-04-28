@@ -16,11 +16,21 @@
             </div>
         </header>
         <section class="descripcion">
-            <p>scrap vehiculos​</p>
+            <scrapvehiculos/>
         </section>
         <footer class="principal-footer"></footer>
     </div>
 </template>
+<script>
+import scrapvehiculos from '../components/scrapvehiculos'
+
+export default {
+    components: {
+        scrapvehiculos
+    }
+}
+</script>
+
 <style scoped>
 * {
     margin: 0;
@@ -88,16 +98,11 @@
     width: 60px;
 }
 .descripcion {
-    background: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    width: 33.3%;
-    height: 625px;
-    justify-content: center;
-    margin-left: 33.3%;
-    text-align: center;
-    font-size: 25px;
+    margin-top: 0px;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 5%;
+    height: 1200px;
 }
 
 </style>

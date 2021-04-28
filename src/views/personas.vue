@@ -10,17 +10,27 @@
                 <ul>
                 <li><a href="http://localhost:8080/#/planetas">Planetas</a></li>
                 <li><a href="http://localhost:8080/#/naves">Naves</a></li>
-                <li><a href="http://localhost:8080/#vehiculos/">Vehiculos</a></li>
+                <li><a href="http://localhost:8080/#/vehiculos">Vehiculos</a></li>
                 <li><a href="http://localhost:8080/#/">Página principal</a></li>
                 </ul>
             </div>
         </header>
         <section class="descripcion">
-            <p>scrap personas​</p>
+            <scrappersonas/>
         </section>
         <footer class="principal-footer"></footer>
     </div>
 </template>
+<script>
+import scrappersonas from '../components/scrappersonas'
+
+export default {
+    components: {
+        scrappersonas
+    }
+}
+</script>
+
 <style scoped>
 * {
     margin: 0;
@@ -88,16 +98,11 @@
     width: 60px;
 }
 .descripcion {
-    background: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    width: 33.3%;
-    height: 625px;
-    justify-content: center;
-    margin-left: 33.3%;
-    text-align: center;
-    font-size: 25px;
+    margin-top: 0px;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 5%;
+    height: 1200px;
 }
 
 </style>
