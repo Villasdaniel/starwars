@@ -1,21 +1,14 @@
 # starwars
 
-> A Vue.js project
+<img src="">
+## introducción
+starwars es una página web en la que se muestra la información correspondiente a las personas, los vehiculos, las naves y los planetas que aparecen en la saga "STAR WARS" tomados de "SWAPI".
 
-## Build Setup
+## modo de visualización
+Clonar este repositorio
 
-``` bash
-# install dependencies
-npm install
+instalar los módulos en el root del proyecto (npm install)
 
-# serve with hot reload at localhost:8080
-npm run dev
+correr el servidor (npm run dev)
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Ingresar a la dirección que se muestra en la terminal
