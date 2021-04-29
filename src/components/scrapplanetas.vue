@@ -69,7 +69,7 @@ h1{
   text-align: center;
 }
 table {
-  font-size: calc(0.1em + 1vw);
+  font-size: calc(0.3em + 1vw);
   color: white;
 }
 * {
