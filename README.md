@@ -7,13 +7,13 @@ starwars es una página web en la que se muestra la información correspondiente
 
 ## modo de visualización
 
-*Clonar este repositorio
+Clonar este repositorio
 
-*instalar los módulos en el root del proyecto (npm install)
+instalar los módulos en el root del proyecto (npm install)
 
-*correr el servidor (npm run dev)
+correr el servidor (npm run dev)
 
-*Ingresar a la dirección que se muestra en la terminal
+Ingresar a la dirección que se muestra en la terminal
 
 ## Authors
 * Daniel Villa [Villasdaniel](https://github.com/Villasdaniel)
