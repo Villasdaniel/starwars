@@ -16,4 +16,4 @@ correr el servidor (npm run dev)
 Ingresar a la dirección que se muestra en la terminal
 
 ## Authors
-* Daniel Villa [Villasdaniel](https://github.com/Villasdaniel)
+* Daniel Villa [Villasdaniel](https://github.com/svilladaniel)
